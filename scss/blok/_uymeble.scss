@@ -1,0 +1,67 @@
+.uymeble__text{
+  font-family: Futura PT;
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+color: #949494;
+width: 557px;
+padding-top: 120px;
+padding-left: 30px;
+}
+.uymeble__img{
+  width: 705px;
+  height: 449px;
+}
+.uymeble__container{
+  display: flex;
+justify-content: space-evenly;
+background-color: #fff;
+}
+
+.uymeble__container1{
+  display: flex;
+justify-content: space-evenly;
+margin-top: 100px;
+background-color: #fff;
+flex-direction: row-reverse;
+}
+
+
+
+
+@media screen and (max-width:1082px) {
+  .uymeble__img{
+    width: 400px;
+    height: 400px;
+  }
+  .uymeble__text{
+    width: 450px;
+    padding: 0;
+  }
+}
+
+
+
+@media screen and (max-width:928px) {
+  .uymeble__text{
+    width: 300px;
+  }
+}
+
+
+
+@media screen and (max-width:740px) {
+  .uymeble__imgblok{
+    display: none;
+  }
+  .uymeble__text{
+    width: 400px;
+  }
+}
+
+
+@media screen and (max-width:446px) {
+  .uymeble__text{
+    width: 340px;
+  }
+}

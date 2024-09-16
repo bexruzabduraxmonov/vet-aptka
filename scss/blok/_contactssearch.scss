@@ -1,0 +1,83 @@
+
+.contactssearch__contentimgblok{
+  width: 443px;
+}
+.contactssearch__searchblok{
+  width: 400px;
+margin-left: 50px;
+}
+.contactssearch__contentblok{
+  display: flex;
+  margin-top: 200px;
+}
+.contactssearch__searchimg{
+  width: 112px;
+margin-left: 180px;
+}
+.contactssearch__contenttitle{
+  width: 348px;
+  font-family: Futura PT;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 61.54px;
+color: #333333; 
+}
+.contacssearch__mapblok{
+  display: flex;
+}
+.contacssearch__mapimg{
+  width: 593px;
+
+}
+.contacssearch__map{
+  width: 847px;
+  height: 466px;
+}
+
+
+
+
+@media screen and (max-width:1024px) {
+  .contactssearch__contentimg{width: 350px;}
+}
+
+
+
+@media screen and (max-width:944px) {
+  .contactssearch__searchimg{
+margin-left: 100px;
+  }
+
+  .contacssearch__mapimg{
+    width: 500px;
+  } 
+}
+
+
+
+@media screen and (max-width:844px) {
+  .contactssearch__contentimgblok{
+    display: none;
+  }
+.contactssearch__searchblok{
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+}
+  .contactssearch__contenttitle{
+    width: 280px;
+    text-align: center;
+  }
+  .contacssearch__mapimg{
+    width: 430px;
+  }
+}
+
+
+
+@media screen and (max-width:752px) {
+  .contacssearch__mapimg{
+    display: none;
+  }
+  
+}

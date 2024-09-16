@@ -1,0 +1,153 @@
+.contacts__title{
+  font-family: Futura PT;
+font-size: 70px;
+font-weight: 700;
+line-height: 64px;
+color: hsl(0, 0%, 20%);
+margin-top: 120px;
+}
+.contacts__text{
+  font-family: Futura PT;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+color: #949494;
+width: 447px;
+margin-top: 30px;
+}
+.contacts__link{
+  font-family: Futura PT;
+font-size: 16px;
+font-weight: 500;
+line-height: 20.51px;
+color:#333333;
+width: 153px;
+}
+.contacts__list{
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin-top: 100px;
+}
+.contacts__container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.contacs__icon{
+  width: 73px;
+}
+.contacts__img{
+  width: 487px;
+  height: 548px;
+}
+
+
+
+@media screen and (max-width:1100px) {
+  .contacts__img{
+    width: 400px;
+    height: 480px;
+  }
+  .contacts__contentblok{
+    width: 500px;
+  }
+  .contacts__list{
+    margin-top: 70px;
+  }
+}
+
+
+
+
+@media screen and (max-width:934px) {
+  .contacs__icon{
+    width: 50px;
+  }
+  .contacts__list{
+    width: 400px;
+    margin-top: 20px;
+  }
+  .contacts__contentblok{
+    width: 400px;
+    height: 400px;
+  }
+  .contacts__text{
+    width: 300px;
+  }
+  .contacts__img{
+    width: 350px;
+    height: 420px;
+  }
+}
+
+
+
+@media screen and (max-width:780px) {
+  .contacts__imgblok{
+    display: none;
+  }
+  .contacts__contentblok{
+    margin-left: auto;
+    margin-right: auto;
+  } 
+}
+
+
+
+@media screen and (max-width:552px) {
+  .contacts__item{
+    width: 120px;
+  }
+  .contacts__list{
+    width: 400px;
+  }
+  .contacts__link{
+    width: 80px;
+    line-height: 15px;
+  }
+  .contacts__contentblok{
+    height: 500px;
+  }
+}
+
+
+@media screen and (max-width:442px) {
+  .contacts__title{
+    text-align: center;
+  font-size: 50px;
+  }
+  .contacts__text{
+ margin-left: 85px;
+  }
+.contacts__list{
+  flex-direction: column;
+width: 150px;
+text-align: center;
+margin-left: 70px;
+}
+.contacts__link{
+  width: 200px;
+}
+  .contacts__item{
+    width: 300px;
+    margin-bottom: 20px;
+
+  }
+}
+
+@media screen and (max-width:386px) {
+  .contacts__text{
+margin-left: 80px;
+width: 250px;
+margin-left: auto;margin-right: auto;
+  }
+  .contacts__list{
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+.contacts__item{
+  width: 250px;
+
+}
+  
+}

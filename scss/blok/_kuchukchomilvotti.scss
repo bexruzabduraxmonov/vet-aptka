@@ -1,0 +1,61 @@
+.kuchuk_chomilvotti__title{
+  font-family: Futura PT;
+font-size: 46px;
+font-weight: 700;
+line-height: 48px;
+color: #333333;
+width: 400px;
+}
+.kuchuk_chomilvotti__text{
+  font-family: Futura PT;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+  color: #949494;
+  width: 343px;
+}
+.kuchuk_chomilvotti__list{
+  display: flex;
+}
+.kuchuk_chomilvotti__container{
+  display: flex;
+text-align: center;
+}
+.kuchuk_chomilvotti__item{
+  margin-right: 20px;
+}
+.kuchuk_chomilvotti__contentblok{
+padding-top: 100px;
+}
+
+
+@media screen and (max-width:1008px) {
+  .kuchuk_chomilvotti__title{
+    width: 350px;
+  }
+  .kuchuk_chomilvotti__contentblok{
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width:944px) {
+  .kuchuk_chomilvotti__container{
+    flex-direction: column;
+  }
+  .kuchuk_chomilvotti__contentblok{
+    margin-left: auto;margin-right: auto;
+    margin-bottom: 30px;
+  }
+  .kuchuk_chomilvotti__list{
+    flex-direction: column;
+  }
+  .kuchuk_chomilvotti__img{
+    width: 350px;
+  }
+  .kuchuk_chomilvotti__item{
+    margin: 0;
+  }
+}
+
+

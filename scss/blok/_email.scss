@@ -1,0 +1,212 @@
+.email__title{
+  font-family: Futura PT;
+font-size: 48px;
+font-weight: 700;
+line-height: 20px;
+text-align: center;
+color: #333333;
+}
+.email__img{
+  width: 305px;
+}
+
+.email__contenttitle{
+  font-family: Futura PT;
+  width: 182px;
+font-size: 22px;
+font-weight: 700;
+line-height: 25px;
+padding-left: 20px;
+padding-bottom: 10px;
+color: #000000;
+}
+
+.email__linktext{
+  font-family: Futura PT;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+color: #949494;
+width: 244px;
+padding-bottom: 10px;
+padding-left: 20px;
+}
+.email__lrnmrimg{
+  width: 23px;
+}
+.email__lrnmrlink{
+  font-family: Futura PT;
+font-size: 16px;
+font-weight: 500;
+line-height: 20.51px;
+color: #333333;
+}
+.email__lrnmrblok{
+  align-items: center;
+  padding-left: 20px;
+}
+
+.email__content{
+  border-radius: 8px;
+  background-color: #fefefe;
+  width: 305px;
+}
+
+.email__img1{
+  width: 305px;
+  height: 435px;
+}
+ .email__hashtags{
+  font-family: Futura PT;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+color:#3D9CEA;
+ }
+
+
+ .email__title1{
+  font-family: Futura PT;
+font-size: 26px;
+font-weight: 700;
+line-height: 29px;
+color: #333333;
+width: 193px;
+margin-left: 40px;
+margin-bottom: 30px;
+ }
+
+ .email__linktext1{
+  font-family: Futura PT;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+color: #949494;
+width: 270px;
+margin-left: 40px;
+padding-bottom: 20px;
+text-align: center;
+ }
+
+ .email__content1{
+  width: 660px;
+  display: flex;
+  background-color: #fefefe;
+  border-radius: 8px;
+ }
+
+ .email__contentblok{
+  text-align: center;
+
+ }
+.email__hashtagsblok{
+  padding-top: 50px;
+  padding-bottom: 30px;
+width: 200px;
+padding-left: 40px;
+}
+.email__lrnmrimg1{
+  width: 23px;
+}
+.email__lrnmrlink1{
+  font-family: Futura PT;
+font-size: 16px;
+font-weight: 500;
+line-height: 20.51px;
+color: #333333;
+}
+.email__lrnmrblok1{
+  padding-left: 20px;
+  width: 200px;
+}
+.email__listblok{
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-evenly;
+}
+
+
+
+@media screen and (max-width:1288px) {
+  .email__content{
+    width: 250px;
+  }
+
+.email__content1{
+  width: 570px;
+  height: 470px;
+}
+}
+
+
+
+@media screen and (max-width:1118px) {
+    .email__content{
+    width: 210px;
+    height: 400px;
+  }
+
+.email__content1{
+  width: 540px;
+  height: 400px;
+}
+.email__img1{
+  height: 400px;
+}
+
+.email__linktext1{
+  width: 250px;
+  height: 220px;
+}
+.email__hashtagsblok{
+  padding: 20px 0 20px 40px;
+}
+.email__contentblok{
+  height: 300px;
+}
+
+.email__title1{
+  margin: 0 0 20px 40px;
+}
+  
+}
+
+
+
+
+@media screen and (max-width:1094px) {
+  .email__img1{
+    display: none;
+  }
+  .email__content1{
+    width: 300px;
+  }
+  .email__title1{
+    margin-left: 25px;
+  }
+  .email__linktext1{
+    margin-left: 25px;
+  }
+  .email__lrnmrblok1{
+    padding-left: 10px;
+  }
+}
+
+
+
+@media screen and (max-width:856px) {
+  .email__listblok{
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .email__content{
+    height: 200px;
+    margin-bottom: 100px;
+  }
+  .email__content1{
+    height: 400px;
+  }
+}

@@ -1,0 +1,279 @@
+.kuchuk__title{
+  font-family: Futura PT;
+font-size: 70px;
+font-weight: 700;
+line-height: 64px;
+color: #333333;
+}
+.kuchuk__title__blue{
+  font-family: Futura PT;
+font-size: 70px;
+font-weight: 700;
+line-height: 64px;
+color:#78C0DE;
+margin-bottom: 25px;
+}
+.kuchuk__link{
+  width: 490px;
+}
+.kuchuk__text{
+  font-family: Futura PT;
+font-size: 16px;
+font-weight: 400;
+line-height: 21px;
+color:  #949494;
+margin-bottom: 25px;
+}
+.kuchuk__button{
+  font-family: Futura PT;
+font-size: 16px;
+font-weight: 500;
+line-height: 20.51px;
+color:#FFFFFF;
+background-color:  #333333;
+border: 1px solid #333333;
+padding: 15px 30px; 
+}
+
+
+.kuchuk__container{
+  background-image: url(../../img/panja.png);
+  background-repeat: no-repeat;
+  height: 700px;
+background-size: contain;
+}
+
+.kuchuk__contentblok{
+  margin-left: 650px;
+  padding-top: 30px;
+}
+
+
+
+
+
+@media screen and (max-width:1201px) {
+
+  .kuchuk__contentblok{
+    margin-left: 580px;
+  }
+.kuchuk__title{
+  width: 430px;
+  
+}
+
+.kuchuk__title__blue{
+  width: 400px;
+}
+
+.kuchuk__link{
+  width: 400px;
+}
+
+
+.kuchuk__buttonblok{
+  width: 400px;
+}
+}
+
+
+
+
+
+@media screen and (max-width:1080px) {
+.kuchuk__contentblok{
+  margin-left: 500px;
+}
+}
+
+@media screen and (max-width:938px){
+.kuchuk__contentblok{
+  margin-left: 450px;
+} 
+
+.kuchuk__title{
+  width: 420px;
+  
+}
+
+.kuchuk__title__blue{
+  width: 350px;
+}
+
+.kuchuk__link{
+  width: 350px;
+}
+
+
+.kuchuk__buttonblok{
+  width: 350px;
+}
+}
+
+
+
+@media screen and (max-width:800px) {
+.kuchuk__container{height: 500px;}
+  
+}
+
+
+
+@media screen and (max-width:884px){ 
+.kuchuk__contentblok{
+margin-left: 400px;
+}
+}
+
+
+
+@media screen and (max-width:830px) {
+.kuchuk__contentblok{
+  margin-left: 380px;
+}
+
+}
+
+
+@media screen and (max-width:800px) {
+.kuchuk__contentblok{
+  margin-left: 200px;
+}
+.kuchuk__title__blue{
+  width: 400px;
+  margin-left: 160px;
+}
+.kuchuk__link{
+  margin-left: 180px;
+  width: 250px;
+}
+.kuchuk__title{
+  width: 570px;
+}
+
+.kuchuk__buttonblok{
+  margin-left: 180px;
+}
+}
+
+
+@media screen and (max-width:770px) {
+  .kuchuk__container{
+    background-image: url(../../img/parrot.png);
+background-size: contain;
+margin-top: 20px;
+background-size: 20%;
+  }
+  .kuchuk__buttonblok{
+    margin-left: 170px;
+  }
+
+  .kuchuk__title__blue{
+    margin-left: 20px;
+    width: 570px;
+  }
+  .kuchuk__link{
+    margin-left: 30px;
+  }
+.kuchuk__contentblok{
+  margin-left: 150px;
+}
+
+.kuchuk__text{
+  width: 500px;
+}
+.kuchuk__title{width: 570px;}
+}
+
+
+
+@media screen and (max-width:742px) {
+  .kuchuk__title__blue{
+    width: 300px;
+  }
+  .kuchuk__title{
+    width: 420px;
+  margin-left: 20px;
+  
+  }
+
+  .kuchuk__text{
+    width: 350px;
+  
+  }
+
+  .kuchuk__buttonblok{width: 200px;
+  margin-left: 100px;}
+  
+}
+
+
+
+@media screen and (max-width:596px) {
+  .kuchuk__contentblok{
+    margin-left: 100px;
+  } 
+}
+
+
+@media screen and (max-width:544px) {
+  .kuchuk__title{
+    width:100px;
+  }
+
+  .kuchuk__contentblok{
+    margin-left: 90px;
+  }
+  .kuchuk__buttonblok{
+    margin-left: 70px;
+  }
+}
+
+
+@media screen and (max-width:470px){
+.kuchuk__text{width: 200px;}
+  .kuchuk__title{width: 320px;font-size: 60px;
+  }
+  .kuchuk__title__blue{width: 200px;
+  font-size: 60px;
+  }
+}
+
+  @media screen and (max-width:435px){ 
+.kuchuk__contentblok{
+  margin-left: 70px;
+width: 300px;}
+    .kuchuk__title{
+      font-size: 45px;
+      width: 300px;
+      line-height: 50px;
+    }
+    .kuchuk__container{
+      background-image: none;
+    }
+
+    .kuchuk__title__blue{
+      width: 300px;
+      margin-left: 25px;
+      font-size: 45px;
+      line-height: 50px;
+    }
+
+    .kuchuk__buttonblok{
+      margin-left: 30px;
+    }
+  }
+
+
+  @media screen and (max-width:399px){
+.kuchuk__contentblok{
+  width: 270px;}
+  .kuchuk__title{
+    width: 200px;
+  }    
+  .kuchuk__title__blue{
+    width: 200px;
+  }
+  }
+
+

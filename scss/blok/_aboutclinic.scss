@@ -1,0 +1,67 @@
+.aboutclinic__title{
+  font-family: Futura PT;
+font-size: 70px;
+font-weight: 700;
+line-height: 64px;
+color: #333333;
+margin-bottom: 30px;
+}
+.aboutclinic__text{
+  font-family: Futura PT;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+color: #949494;
+width: 411px;
+}
+.aboutclinic__container{
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 80px;
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+.aboutclinic__img{
+  width: 448px;
+}
+.aboutclinic__contentblok{
+  padding-top: 150px;
+}
+
+
+@media screen and (max-width:980px) {
+  .aboutclinic__img{
+    width: 400px;
+  }
+  .aboutclinic__text{
+    width: 370px;
+  }
+}
+
+
+@media screen and (max-width:896px) {
+  .aboutclinic__img{
+    width: 350px;
+  }
+  .aboutclinic__text{
+    width: 350px;
+  }
+}
+
+
+@media screen and (max-width:796px) {
+  .aboutclinic__container{
+    flex-direction: column;
+align-items: center;
+padding: 0;
+  }
+  .aboutclinic__title{
+    width: 350px;
+  }
+  .aboutclinic__contentblok{
+    width: 350px;
+  }
+  .aboutclinic__imgblok{
+    width: 350px;
+  }
+}

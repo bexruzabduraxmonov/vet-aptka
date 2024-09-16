@@ -1,0 +1,223 @@
+.baliq__container{
+  display: flex;
+  margin-top: 250px;
+}
+.baliq__img{
+  margin-top: 170px;
+  width: 400px;
+  margin-left: 30px;
+}
+
+.baliq__contentblok{
+  background-color: #333333;
+  width: 900px;
+  height: 700px;
+  display: flex;
+}
+.baliq__map{
+  width: 462px;
+height: 700px;
+}
+
+.baliq__izoh{
+  width: 280px;
+  height: 165px;
+}
+
+.baliq__title{
+  font-family: Futura PT;
+font-size: 48px;
+font-weight: 700;
+line-height: 61.54px;
+color: #ffffff;
+margin-top: 50px;
+margin-bottom: 30px;
+margin-left: 90px;
+}
+.baliq__text{
+  font-family: Futura PT;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+color: #949494;
+width: 280px;
+margin-left: 90px;
+margin-bottom: 30px;
+}
+
+.baliq__nameinput{
+  width: 280px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.baliq__emailinput{
+  width: 280px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.baliq__formbox{
+  height: 300px;
+  flex-direction: column;
+  margin-left: 90px;
+  width: 375px;
+}
+
+.baliq__button{
+  font-family: Futura PT;
+font-size: 16px;
+font-weight: 500;
+line-height: 20.51px;
+color: #ffffff;
+background-color:#FFBD54;
+border: none;
+padding: 15px 30px;
+margin-left: 90px;
+}
+
+.baliq__content{
+  width: 400px;
+  height: 700px;
+}
+
+.baliq__imgblok{
+  width: 400px;
+}
+
+
+
+@media screen and (max-width:1272px) {
+
+  .baliq__img{
+    width: 350px;
+  }
+  .baliq__imgblok{
+    width: 350px;
+    margin-left: 80px;
+  }
+  .baliq__content{
+    width: 300px;
+  }
+  
+}
+
+
+@media screen and (max-width:1208px){
+  .baliq__map{
+    width: 350px;
+    height: 600px;
+  }
+  .baliq__contentblok{
+    width: 800px;
+    height: 600px;
+  }
+
+  .baliq__title{
+  margin: 30px 0 20px 80px;
+  }
+
+  .baliq__izoh{
+    height: 130px;
+  }
+  .baliq__formbox{
+    height: 250px;
+  }
+}
+
+
+
+@media screen and (max-width:1092px) {
+  .baliq__contentblok{
+    width: 700px;
+  }
+  .baliq__imgblok{
+    width: 250px;
+  }
+  .baliq__img{
+    width: 250px;
+  }
+
+  .baliq__nameinput{
+    width: 200px;
+  }
+  .baliq__emailinput{
+    width: 200px;
+  }
+  .baliq__izoh{
+    width: 200px;
+  }
+}
+
+
+
+@media screen and (max-width:996px) {
+  .baliq__container{
+    flex-direction: column;
+  }
+.baliq__map{
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .baliq__contentblok{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+@media screen and (max-width:700px) {
+  .baliq__imgblok{
+    display: none;
+  }
+  .baliq__contentblok{
+    width: 350px;
+  }
+  .baliq__map{
+    width: 350px;
+    height: 500px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+  }
+
+  .baliq__title{
+      margin: 20px 0 10px 60px;
+  }
+  .baliq__text{
+    margin: 0 0 20px 70px;
+    width: 200px;
+  }
+  .baliq__formbox{
+    margin-left: 70px;
+    width: 300px;
+  }
+
+  .baliq__button{
+margin-left: 80px;
+    padding: 12px 24px;
+  }
+}
+
+
+@media screen and (max-width:400px) {
+  .baliq__map{width: 300px;}
+  .baliq__contentblok{
+    width: 300px;
+  }
+
+  .baliq__title{
+    margin-left: 40px;
+  }
+
+  .baliq__text{
+    margin-left: 40px;
+  }
+  .baliq__formbox{
+    margin-left: 40px;
+    width: 250px;
+  }
+  .baliq__button{
+    margin-left: 50px;
+  }
+}
